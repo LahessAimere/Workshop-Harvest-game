@@ -14,7 +14,7 @@ public class PlayerCamera : MonoBehaviour
         camPosition = new Vector3(-0.2950623f, 14.67f, 0.6499981f);
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         transform.position = player.transform.position + camPosition;
     }
