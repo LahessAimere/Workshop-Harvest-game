@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b6bad88-e145-495e-954c-b81c6c3e6815" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Harvest Simulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Harvest Simulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_PlayerCharacter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test_PlayerCharacter.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_PlayerCharacter/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_PlayerCharacter/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter/PlayerCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter/PlayerCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test_Floors/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Test_Floors/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey4.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +17,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/72/8d4688de/Single.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerCharacter/PlayerCamera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -40,7 +37,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;player-character&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;spawner-objects&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -83,10 +80,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3284">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3284" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -104,6 +101,9 @@
       <updated>1699973730274</updated>
       <workItem from="1699973733353" duration="5102000" />
       <workItem from="1700038953265" duration="4856000" />
+      <workItem from="1700048865994" duration="6238000" />
+      <workItem from="1700126107923" duration="9206000" />
+      <workItem from="1700144635272" duration="3451000" />
     </task>
     <servers />
   </component>
