@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7195238261638785656}
   - component: {fileID: 2778729744086561258}
   - component: {fileID: 4798471537515510249}
+  - component: {fileID: -1351176703453302129}
   m_Layer: 0
   m_Name: WoodStickUI
   m_TagString: Untagged
@@ -89,3 +90,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NewPositionDrag: {fileID: 0}
+--- !u!114 &-1351176703453302129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2254190979096024228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23e00c7f0711db4dbd9a11d78123118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _itemData: {fileID: 11400000, guid: be36b176654951d41bf08f18af3e25f6, type: 2}

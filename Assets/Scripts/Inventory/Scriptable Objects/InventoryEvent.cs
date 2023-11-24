@@ -7,20 +7,19 @@ public class InventoryEvent : ScriptableObject
     public static Action<SlotItemSystem> SendItemSlotItemSystem;
     public static Action<ItemData> SendItemDataAction;
 
-
     private void OnEnable()
     {
         SlotItemSystem.ActionSlotItem += SendAction;
-        PlayerDropItemFromInventory._actionItemData += SendItemData;
+        PlayerDropItemFromInventory.ActionItemData += SendItemData;
     }
 
-    private void SendItemData(ItemData _itemData)
+    private void SendItemData(ItemData item)
     {
-        SendItemDataAction.Invoke(_itemData);
+        SendItemDataAction.Invoke(item);
     }
 
-    private void SendAction(SlotItemSystem _slotItemSystem)
+    private void SendAction(SlotItemSystem slotItemSystem)
     {
-        SendItemSlotItemSystem.Invoke(_slotItemSystem);
+        SendItemSlotItemSystem.Invoke(slotItemSystem);
     }
 }

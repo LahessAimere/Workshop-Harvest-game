@@ -455,7 +455,6 @@ GameObject:
   - component: {fileID: 596360673}
   - component: {fileID: 596360675}
   - component: {fileID: 596360674}
-  - component: {fileID: 596360676}
   m_Layer: 5
   m_Name: Content Items
   m_TagString: Untagged
@@ -528,27 +527,6 @@ MonoBehaviour:
   m_Spacing: {x: 5, y: 5}
   m_Constraint: 1
   m_ConstraintCount: 4
---- !u!114 &596360676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596360672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e71a4decfd9720449bc6ff4dcbfda42c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _casesItem:
-  - {fileID: 356997552}
-  - {fileID: 437120212}
-  - {fileID: 623961200}
-  - {fileID: 1312795445}
-  - {fileID: 2011104080}
-  - {fileID: 712158742}
-  - {fileID: 1685185210}
-  - {fileID: 208058363}
 --- !u!1001 &623961198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1688,7 +1666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _scrollViewInventory: {fileID: 792020041}
-  _casesItem:
+  _SlotsItem:
   - {fileID: 356997552}
   - {fileID: 437120212}
   - {fileID: 623961200}

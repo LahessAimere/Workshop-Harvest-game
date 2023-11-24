@@ -23,7 +23,8 @@ public class DropInventory : MonoBehaviour, IDropHandler
                     _dragItem.NewPositionDrag = transform;
                 }
             }
-            /*if (_dragItem != null && itemInSlot != null && _dragItem.DragReferenceItem != null)
+            /* Try compare items types
+             if (_dragItem != null && itemInSlot != null && _dragItem.DragReferenceItem != null)
             {
                 if (_dragItem.DragReferenceItem.Type == itemInSlot.Type)
                 {

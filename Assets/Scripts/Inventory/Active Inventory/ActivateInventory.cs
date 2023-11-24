@@ -1,20 +1,17 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Timeline.Actions;
 using UnityEngine;
-using UnityEngine.Serialization;
+
 
 public class ActivateInventory : MonoBehaviour
 {
-    [FormerlySerializedAs("_inventory")] [SerializeField] private GameObject _scrollViewInventory;
+    [SerializeField] private GameObject _scrollViewInventory;
     
     private List<ItemData> _itemInventory;
-    [SerializeField] private GameObject[] _casesItem;
-
-    public static Action<SlotItemSystem> ActionSlotItem;
+    
     private GameObject _parentItem;
-
+    
+    [SerializeField] private GameObject[] _SlotsItem;
+    
     private void Start()
     {
         _scrollViewInventory.SetActive(false);
@@ -25,13 +22,13 @@ public class ActivateInventory : MonoBehaviour
         InventoryEvent.SendItemDataAction += AddItemList;
     }
     
-    public void AddItemList(ItemData _item)
+    public void AddItemList(ItemData item)
     {
-        for (int i = 0; i < _casesItem.Length; i++)
+        for (int i = 0; i < _SlotsItem.Length; i++)
         {
-            if (_casesItem[i].transform.childCount == 0)
+            if (_SlotsItem[i].transform.childCount == 0)
             {
-                Instantiate(_item.ItemUiPrefab, _casesItem[i].transform); 
+                Instantiate(item.ItemUiPrefab, _SlotsItem[i].transform); 
                 break;
             }   
         }
@@ -41,7 +38,6 @@ public class ActivateInventory : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            //Inverts the active state
             _scrollViewInventory.SetActive(!_scrollViewInventory.activeSelf);
         }
     }

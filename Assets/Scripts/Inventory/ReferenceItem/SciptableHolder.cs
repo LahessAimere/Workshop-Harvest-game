@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class SciptableHolder : MonoBehaviour
 {
-    public ItemData _itemData;
-    
+    [FormerlySerializedAs("_itemData")] public ItemData ItemHolder;
 }

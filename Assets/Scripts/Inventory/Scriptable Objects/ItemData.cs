@@ -6,7 +6,7 @@ public class ItemData : ScriptableObject
 {
     [SerializeField] ItemType type;
     
-    //[SerializeField] private ItemData _itemData;
+    [SerializeField] private ItemData _itemData;
     public ItemType Type => type;
     
     [SerializeField] private GameObject[] _itemPrefab = new GameObject[Enum.GetValues(typeof(ItemType)).Length];

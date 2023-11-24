@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7177289957120323080}
   - component: {fileID: 1739321263517702272}
   - component: {fileID: 4704269841282134098}
+  - component: {fileID: 548186590759936798}
   m_Layer: 0
   m_Name: StoneUI
   m_TagString: Untagged
@@ -89,3 +90,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NewPositionDrag: {fileID: 0}
+--- !u!114 &548186590759936798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6739951668657898113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23e00c7f0711db4dbd9a11d78123118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _itemData: {fileID: 11400000, guid: d8b3663b9d347754686f485c71b7faa5, type: 2}
