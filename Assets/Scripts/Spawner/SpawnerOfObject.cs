@@ -7,7 +7,7 @@ using UnityEngine.SocialPlatforms;
 using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(NavMeshSurface))]
-public class SpawnerOfObjects : MonoBehaviour
+public class SpawnerOfObject : MonoBehaviour
 {
     private NavMeshSurface _meshSurface;
     private NavMeshData _navSurfaceData;
@@ -16,7 +16,8 @@ public class SpawnerOfObjects : MonoBehaviour
     [SerializeField] private float _waitTimeMin;
     [SerializeField] private float _waitTimeMax;
 
-    [SerializeField] private GameObject[] _harvestableObjects;
+    [FormerlySerializedAs("_harvestableObjects")] [SerializeField] private GameObject _harvestableObject;
+    
     private void Start()
     {
         _meshSurface = GetComponent<NavMeshSurface>();
@@ -47,7 +48,7 @@ public class SpawnerOfObjects : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(_waitTimeMin, _waitTimeMax));
             _randomPointPosition = RandomPoint(_navSurfaceData.sourceBounds);
             
-            GameObject harvestableObjectPrefab = _harvestableObjects[Random.Range(0, _harvestableObjects.Length)];
+            GameObject harvestableObjectPrefab = _harvestableObject;
             Quaternion randomRotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
             
             Instantiate(harvestableObjectPrefab, _randomPointPosition, randomRotation);

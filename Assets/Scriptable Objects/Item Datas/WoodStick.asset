@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b863b521235d6f4cac4819c628d231a, type: 3}
+  m_Name: WoodStick
+  m_EditorClassIdentifier: 
+  type: 1
+  _itemPrefab:
+  - {fileID: 877668464781858718, guid: 2c632e6f1e974314eb17eb8a36d091a6, type: 3}
+  _itemUiPrefab: {fileID: 2254190979096024228, guid: f59e836349c55904c9a596702c962873, type: 3}
